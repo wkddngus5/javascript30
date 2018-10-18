@@ -50,28 +50,3 @@ class InputForm extends Component {
 }
 
 export default InputForm;
-
-// class App extends React.Component {
-//
-//
-//   render() {
-//     let data = "Try\nenter\nenter\nenter";
-//     return (
-//       <div>
-//         <p>Won't work:</p>
-//         {data.replace(/\n/g, '<br/>')}
-//         <p>This works</p>
-//         {
-//           data.split('\n').map( line => {
-//             return (<span>{line}<br/></span>)
-//           })
-//         }
-//       </div>
-//     );
-//   }
-// };
-//
-// ReactDOM.render(
-//   <App></App>,
-//   document.getElementById("root")
-// );
